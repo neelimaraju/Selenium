@@ -60,7 +60,7 @@ public class PositiveTest {
 //		 System.out.println("logged out from positive test");
 //		 
 		 
-//		driver.quit();
+	driver.quit();
 
 	
 		
