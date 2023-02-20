@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="NegativeTestUsername(failed)">
+    <classes>
+      <class name="com.login.NegativeTestUsername">
+        <methods>
+          <include name="negUn"/>
+        </methods>
+      </class> <!-- com.login.NegativeTestUsername -->
+    </classes>
+  </test> <!-- NegativeTestUsername(failed) -->
+  <test thread-count="5" parallel="tests" name="NegativeTestEmpty(failed)">
+    <classes>
+      <class name="com.login.NegativeTestEmpty">
+        <methods>
+          <include name="negEmp"/>
+        </methods>
+      </class> <!-- com.login.NegativeTestEmpty -->
+    </classes>
+  </test> <!-- NegativeTestEmpty(failed) -->
+  <test thread-count="5" parallel="tests" name="NegativeTestPassword(failed)">
+    <classes>
+      <class name="com.login.NegativeTestPassword">
+        <methods>
+          <include name="negPass"/>
+        </methods>
+      </class> <!-- com.login.NegativeTestPassword -->
+    </classes>
+  </test> <!-- NegativeTestPassword(failed) -->
+</suite> <!-- Failed suite [AllTests] -->
