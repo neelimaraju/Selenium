@@ -36,11 +36,13 @@ public class PositiveTest {
 // enter username 
 		WebElement username = driver.findElement(By.id("username"));
 		username.sendKeys("neelima.psoft@gmail.com");
+		sleep(1000);
 		System.out.println("username entered for positive test");
 
 // enter password 
 		WebElement pwd = driver.findElement(By.id("password"));
 		pwd.sendKeys("Neelima@1234");
+		sleep(1000);
 		System.out.println("pwd entered for positive test");
 
 // click Login button 
@@ -60,7 +62,7 @@ public class PositiveTest {
 //		 System.out.println("logged out from positive test");
 //		 
 		 
-	driver.quit();
+	//driver.quit();
 
 	
 		

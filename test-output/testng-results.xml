@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-19T20:32:55 CST" name="Default suite" finished-at="2023-02-19T20:33:10 CST" duration-ms="15519">
+  <suite started-at="2023-02-20T07:44:53 CST" name="AllTests" finished-at="2023-02-20T07:45:04 CST" duration-ms="10605">
     <groups>
     </groups>
-    <test started-at="2023-02-19T20:32:55 CST" name="Default test" finished-at="2023-02-19T20:33:10 CST" duration-ms="15519">
+    <test started-at="2023-02-20T07:44:53 CST" name="NegativeTestPassword" finished-at="2023-02-20T07:45:02 CST" duration-ms="8850">
+      <class name="com.login.NegativeTestPassword">
+        <test-method signature="negPass()[pri:0, instance:com.login.NegativeTestPassword@48aca48b]" started-at="2023-02-20T07:44:53 CST" name="negPass" finished-at="2023-02-20T07:45:02 CST" duration-ms="8799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negPass -->
+      </class> <!-- com.login.NegativeTestPassword -->
+    </test> <!-- NegativeTestPassword -->
+    <test started-at="2023-02-20T07:44:53 CST" name="NegativeTestUsernamePassword" finished-at="2023-02-20T07:45:02 CST" duration-ms="8900">
+      <class name="com.login.NegativeTestUsernamePassword">
+        <test-method signature="negUnPass()[pri:0, instance:com.login.NegativeTestUsernamePassword@1b11171f]" started-at="2023-02-20T07:44:53 CST" name="negUnPass" finished-at="2023-02-20T07:45:02 CST" duration-ms="8850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negUnPass -->
+      </class> <!-- com.login.NegativeTestUsernamePassword -->
+    </test> <!-- NegativeTestUsernamePassword -->
+    <test started-at="2023-02-20T07:44:53 CST" name="NegativeTestUsername" finished-at="2023-02-20T07:45:02 CST" duration-ms="8935">
+      <class name="com.login.NegativeTestUsername">
+        <test-method signature="negUn()[pri:0, instance:com.login.NegativeTestUsername@428640fa]" started-at="2023-02-20T07:44:53 CST" name="negUn" finished-at="2023-02-20T07:45:02 CST" duration-ms="8886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negUn -->
+      </class> <!-- com.login.NegativeTestUsername -->
+    </test> <!-- NegativeTestUsername -->
+    <test started-at="2023-02-20T07:44:53 CST" name="NegativeTestEmpty" finished-at="2023-02-20T07:45:02 CST" duration-ms="9227">
+      <class name="com.login.NegativeTestEmpty">
+        <test-method signature="negEmp()[pri:0, instance:com.login.NegativeTestEmpty@53aac487]" started-at="2023-02-20T07:44:53 CST" name="negEmp" finished-at="2023-02-20T07:45:02 CST" duration-ms="9184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negEmp -->
+      </class> <!-- com.login.NegativeTestEmpty -->
+    </test> <!-- NegativeTestEmpty -->
+    <test started-at="2023-02-20T07:44:53 CST" name="PositiveTest" finished-at="2023-02-20T07:45:04 CST" duration-ms="10605">
       <class name="com.login.PositiveTest">
-        <test-method signature="pTest()[pri:0, instance:com.login.PositiveTest@383bfa16]" started-at="2023-02-19T20:32:55 CST" name="pTest" finished-at="2023-02-19T20:33:10 CST" duration-ms="15448" status="PASS">
+        <test-method signature="pTest()[pri:0, instance:com.login.PositiveTest@383bfa16]" started-at="2023-02-20T07:44:53 CST" name="pTest" finished-at="2023-02-20T07:45:04 CST" duration-ms="10555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pTest -->
       </class> <!-- com.login.PositiveTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- PositiveTest -->
+  </suite> <!-- AllTests -->
 </testng-results>
